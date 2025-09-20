@@ -1,13 +1,12 @@
-# 🚀 RISC-V SoC Tapeout Program VSD | Week 0: Setup & Tools Installation
+# 🧑‍💻🔧 RISC-V SoC Tapeout Program VSD | Week 0: Setup & Tools Installation
 
 Welcome to the launch pad of your SoC journey! In Week 0, we set the foundation for transforming RTL designs into silicon by preparing your development environment with essential open-source Electronic Design Automation (EDA) tools. This crucial step ensures a smooth and robust experience as we dive deeper into chip design and tapeout phases.
 
-## ⚙️ What You Achieved This Week:
+## ⚙️ This Week’s Highlights
 - **Installed and configured core EDA tools:**  
   - **Yosys:** RTL synthesis from Verilog to gate-level netlist ![Build Status](https://img.shields.io/badge/Yosys-✓-green)  
   - **Icarus Verilog (iverilog):** Reliable Verilog simulation and verification ![Build Status](https://img.shields.io/badge/IcarusVerilog-✓-green)  
   - **GTKWave:** Waveform viewer for analyzing RTL simulation outputs ![Build Status](https://img.shields.io/badge/GTKWave-✓-green)  
-- **Verified toolchain functionality** with successful simulation and synthesis runs
 - **Prepared an environment** tailored for RTL-to-GDSII flows on Ubuntu 20.04+ (native or VM)
 - **Built confidence** for moving forward into SoC integration and silicon tapeout
 
@@ -31,23 +30,21 @@ Building silicon is a complex journey requiring precise tools and workflows. Wee
 
 | Task | Description | Status |
 |-------|-------------|---------|
-| [Task 0](Week0/Task0/README.md) | 🛠️ [Tools Installation](Week0/Task0/README.md) — Successfully installed and configured Icarus Verilog, Yosys, and GTKWave for RTL design and simulation workflow | ✅ Done |
+| [Task 0](Week0/Task0/README.md) | 🛠️ [Tools Installation](Week0/Task0/README.md) — Successfully installed and configured Icarus Verilog, Yosys, and GTKWave to establish a functional RTL design and simulation environment | ✅ Done |
 
----
+## Key Achievements
 
-## 🌟 Week 0 Recap
+- **Developed hands-on skills for environment setup:**  
+  Navigated the Linux (Ubuntu 20.04) OS preparation—whether native or in VM—to ensure a stable platform for extensive RTL design, synthesis, and verification workflows.
 
-- Established a robust open-source EDA toolchain essential for RISC-V SoC development.
-- Gained hands-on experience setting up the environment for RTL design, synthesis, and verification.
-- Prepared the system for efficient RTL to GDSII flow experiments, laying the groundwork for upcoming SoC tapeout stages.
 
----
+Feel free to reach out or contribute as the adventure unfolds!
 
 By completing this foundational week, I am deeply proud to contribute to the pioneering RISC-V SoC Tapeout Program by VSD—a milestone propelling the open-source silicon ecosystem forward with innovation and collaboration.
-
+---
 ## 🙏 Acknowledgments
 
-Thanks to the collaborative visionaries fueling this initiative:[Kunal Ghosh](https://github.com/kunalg123),mohammad Kaseem ,[RISC-V International](https://riscv.org/),Samir Patel.
+Thanks to the collaborative visionaries fueling this initiative:[Kunal Ghosh](https://github.com/kunalg123),Mohammad Kaseem,Samir Patel.
 
 ---
 
