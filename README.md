@@ -37,6 +37,8 @@ make config-gcc
 git submodule update --init --recursive
 make
 sudo make install
+```bash
+exit
 
 <img width="1087" height="541" alt="yosys" src="https://github.com/sathvikkumarpamu/sathvikkumarpamu_RISC-V_SoC_Design_Journey/images/yosys.png" />
 
