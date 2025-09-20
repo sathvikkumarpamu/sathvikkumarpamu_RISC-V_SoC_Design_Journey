@@ -1,91 +1,82 @@
-# RISC-V Reference SoC Tapeout Program VSD
+# 🧑‍💻🔧 RISC-V SoC Tapeout Program VSD | Week 0: Setup & Tools Installation
 
-## Tools Installation
-
-All the instructions for installation of required tools can be found here:
-
-### System Requirements
-- 6 GB RAM
-- 50 GB HDD
-- Ubuntu 20.04 or higher
-- 4 vCPU
-
-### Resizing the Ubuntu window to fit the screen
-
-$ sudo apt-get update
-$ git clone https://github.com/YosysHQ/yosys.git
-$ cd yosys
-$ sudo apt install make # If make is not installed
-$ sudo apt-get install build-essential clang bison flex libreadline-dev gawk tcl-dev libffi-dev git graphviz xdot pkg-config python3 libboost-system-dev libboost-python-dev libboost-filesystem-dev zlib1g-dev
-$ make config-gcc
-Yosys build depends on a Git submodule called abc, which hasn't been initialized yet. Run this command before make:
-$ git submodule update --init --recursive
-$ make
-$ sudo make install
-![Yosys installation done](Week0/Task0/Images/yosys_installation_done.jpeg)
+Welcome to the launch pad of your SoC journey! In Week 0, we set the foundation for transforming RTL designs into silicon by preparing your development environment with essential open-source Electronic Design Automation (EDA) tools. This crucial step ensures a smooth and robust experience as we dive deeper into chip design and tapeout phases.
 
 ---
 
-### Iverilog (Icarus Verilog)
-Icarus Verilog is a Verilog simulator and compiler used to test, simulate, and verify digital logic written in Verilog HDL. It is often used with GTKWave for waveform viewing, Yosys for synthesis, and OpenLane/ASIC flow tools for chip design.
+## ⚙️ This Week’s Highlights
 
-$ sudo apt-get update
-$ sudo apt-get install iverilog
-![Iverilog status](Week0/Task0/Images/iverilog_status.png)
-
----
-
-### GTKWave
-GTKWave is a waveform viewer used in digital design and simulation workflows, especially after running Verilog simulations with tools like Icarus Verilog.
-
-$ sudo apt-get update
-$ sudo apt install gtkwave
+- **Installed and configured core EDA tools:**  
+  - **Yosys:** RTL synthesis from Verilog to gate-level netlist ![Build Status](https://img.shields.io/badge/Yosys-✓-green)  
+  - **Icarus Verilog (iverilog):** Reliable Verilog simulation and verification ![Build Status](https://img.shields.io/badge/IcarusVerilog-✓-green)  
+  - **GTKWave:** Waveform viewer for analyzing RTL simulation outputs ![Build Status](https://img.shields.io/badge/GTKWave-✓-green)  
+- **Prepared an environment** tailored for RTL-to-GDSII flows on Ubuntu 20.04+ (native or VM)  
+- **Built confidence** for moving forward into SoC integration and silicon tapeout  
 
 ---
 
-## Additional Tools
+## 🛠️ Tools & Setup Summary
 
-### ngspice
-Ngspice is a powerful open-source circuit simulator based on SPICE used for analog, digital, and mixed-signal simulations.
-
-Installation:
-$ tar -zxvf ngspice-37.tar.gz
-$ cd ngspice-37
-$ mkdir release
-$ cd release
-$ ../configure --with-x --with-readline=yes --disable-debug
-$ make
-$ sudo make install
-
-### Magic
-Magic is an open-source VLSI layout editor for drawing physical layouts of ICs, running Design Rule Checks (DRC), Layout vs Schematic (LVS), and exporting GDSII files for tapeout.
-
-Installation:
-$ sudo apt-get install m4 tcsh csh libx11-dev tcl-dev tk-dev libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
+| Tool             | Purpose                               | Installation Summary                      |
+|------------------|-------------------------------------|------------------------------------------|
+| **Yosys**        | Verilog synthesis to gate-level netlist | Clone repo, build with dependencies      |
+| **Icarus Verilog** | Verilog simulation                 | Install via apt package                   |
+| **GTKWave**      | Waveform analysis GUI                | Install via apt package                   |
+| **Ubuntu 20.04+** | OS for supported design flow        | Recommended: native or VM installation   |
 
 ---
 
-## OpenLane ASIC Design Flow
+# 📅 Week 0 — Setup & Tools
 
-OpenLane automates the process of converting Verilog RTL into a GDSII layout, widely used for open-source tapeouts such as SkyWater, TinyTapeout, and Efabless shuttle program.
+| Task           | Description                                                                                  | Status  |
+|----------------|----------------------------------------------------------------------------------------------|---------|
+| [Task 0](Week0/Task0/README.md) | 🛠️ [Tools Installation](Week0/Task0/README.md) — Successfully installed and configured Icarus Verilog, Yosys, and GTKWave to establish a functional RTL design and simulation environment | ✅ Done |
 
-### Installation
+---
 
-There are two main ways to install OpenLane:
+## Key Achievements
 
-1. Using Docker (Recommended & Portable)
+- **Developed hands-on skills for environment setup:**  
+  Navigated the Linux (Ubuntu 20.04) OS preparation—whether native or in VM—to ensure a stable platform for extensive RTL design, synthesis, and verification workflows.
 
-2. Native Installation (Advanced)
+---
 
-Steps for native installation:
-git clone https://github.com/The-OpenROAD-Project/OpenLane.git
-cd OpenLane
-sudo apt update
-sudo apt install -y git make python3 python3-pip build-essential libx11-dev x11-utils tcl-dev tk-dev libcairo2-dev libglu1-mesa-dev libncurses-dev wget
-sudo apt install docker.io # Optional but recommended
-sudo systemctl enable docker
-sudo systemctl start docker
-sudo usermod -aG docker $USER
-make pdk # Install PDK, e.g., Sky130
-make openlane # Optional if not using Docker
-make mount # Run OpenLane in Docker, mount local directory, launch shell
+## 🎯 Task 0 Achieved!
+
+> **Goal:** Environment fully configured; Yosys, Icarus Verilog, and GTKWave working seamlessly!  
+>  
+> This milestone means I'm officially set up to advance through the full SoC design and tapeout journey—starting strong, building my technical confidence, and adding another real skill to my VLSI toolkit.  
+>  
+> Proud to set this marker in my learning journey, determined to excel in every step. The RISC-V SoC Tapeout Program by VSD inspires real innovation, and it’s a privilege to contribute to this dynamic community shaping the future of open-source hardware in India and beyond.
+
+---
+
+Feel free to reach out or contribute as the adventure unfolds!
+
+By completing this foundational week, I am deeply proud to contribute to the pioneering RISC-V SoC Tapeout Program by VSD—a milestone propelling the open-source silicon ecosystem forward with innovation and collaboration.
+
+---
+
+## 🌟 Why This Matters:
+
+Building silicon is a complex journey requiring precise tools and workflows. Week 0 empowers you by setting up proven open-source software ecosystems essential to design, simulate, and synthesize your RISC-V SoC efficiently. These tools are cornerstones of industry-grade chip design, enabling innovation at a free of cost.
+
+---
+
+## 🙏 Acknowledgments
+
+Thanks to the collaborative visionaries fueling this initiative: [Kunal Ghosh](https://github.com/kunalg123), Mohammad Kaseem, Samir Patel.
+
+---
+
+## 📅 Stay Tuned!
+
+This is just the beginning. Follow along to learn how we progress from environment setup to RTL design, synthesis, physical layout, tapeout, and chip bring-up. Join the growing ecosystem of 3500+ innovators advancing the nation's semiconductor ambitions.
+
+---
+
+## 🔗 Program Links
+
+[![Official Website](https://img.shields.io/badge/Official%20Website-0078D7?style=for-the-badge&logo=internet-explorer&logoColor=white)](https://vsdiat.vlsisystemdesign.com/)  
+[![RISC-V](https://img.shields.io/badge/RISC--V-000000?style=for-the-badge&logo=risc-v&logoColor=white)](https://riscv.org/)  
+[![Efabless](https://img.shields.io/badge/Efabless-0066CC?style=for-the-badge&logo=vercel&logoColor=white)](https://efabless.com/)
