@@ -11,7 +11,7 @@ Welcome to the launch pad of your SoC journey! In Week 0, we set the foundation 
 - **Built confidence** for moving forward into SoC integration and silicon tapeout
 
 ## 🌟 Why This Matters:
-Building silicon is a complex journey requiring precise tools and workflows. Week 0 empowers you by setting up proven open-source software ecosystems essential to design, simulate, and synthesize your RISC-V SoC efficiently. These tools are cornerstones of industry-grade chip design, enabling innovation at a fraction of free of cost.
+Building silicon is a complex journey requiring precise tools and workflows. Week 0 empowers you by setting up proven open-source software ecosystems essential to design, simulate, and synthesize your RISC-V SoC efficiently. These tools are cornerstones of industry-grade chip design, enabling innovation at a free of cost.
 
 ---
 
