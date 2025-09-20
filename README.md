@@ -27,41 +27,27 @@ Building silicon is a complex journey requiring precise tools and workflows. Wee
 
 ---
 
-## 🔄 Week 0 Workflow
+# 📅 Week 0 — Setup & Tools
 
-### Tools and Environment
+| Task | Description | Status |
+|-------|-------------|---------|
+| [Task 0](Week0/Task0/README.md) | 🛠️ [Tools Installation](Week0/Task0/README.md) — Successfully installed and configured Icarus Verilog, Yosys, and GTKWave for RTL design and simulation workflow | ✅ Done |
 
-| ![Ubuntu](https://upload.wikimedia.org/wikipedia/commons/4/48/Ubuntu_logo.svg) | ![Yosys](https://raw.githubusercontent.com/YosysHQ/yosys/master/logo/yosys_logo.svg) | ![Icarus Verilog](https://raw.githubusercontent.com/Icarus-Verilog/iverilog/master/doc/logo.svg) | ![GTKWave](https://gitlab.com/gtkwave/gtkwave/-/raw/master/docs/gtkwave-logo.svg) |
-|---|---|---|---|
-| Ubuntu OS | Yosys Synthesis | Icarus Verilog Simulator | GTKWave Viewer |
-
-flowchart LR
-A[Ubuntu Installation
-(🖥️)] --> B[Toolchain Setup
-(Yosys, Icarus Verilog, GTKWave)]
-B --> C[Validation & Test Runs
-(Simulation, Synthesis)]
-style A fill:#f2f2f2,stroke:#333,stroke-width:2px
-style B fill:#cce5ff,stroke:#3182bd,stroke-width:2px
-style C fill:#d1e7dd,stroke:#14532d,stroke-width:2px
 ---
+
+## 🌟 Week 0 Recap
+
+- Established a robust open-source EDA toolchain essential for RISC-V SoC development.
+- Gained hands-on experience setting up the environment for RTL design, synthesis, and verification.
+- Prepared the system for efficient RTL to GDSII flow experiments, laying the groundwork for upcoming SoC tapeout stages.
+
+---
+
+By completing this foundational week, I am deeply proud to contribute to the pioneering RISC-V SoC Tapeout Program by VSD—a milestone propelling the open-source silicon ecosystem forward with innovation and collaboration.
 
 ## 🙏 Acknowledgments
 
 Thanks to the collaborative visionaries fueling this initiative:[Kunal Ghosh](https://github.com/kunalg123),mohammad Kaseem ,[RISC-V International](https://riscv.org/),Samir Patel.
-
----
-
-## 📅 Stay Tuned!
-
-This is just the beginning. Follow along to learn how we progress from environment setup to RTL design, synthesis, physical layout, tapeout, and chip bring-up. Join the growing ecosystem of 3500+ innovators advancing the nation's semiconductor ambitions.
-
----
-# 📈 Weekly Progress Tracker
-
-|  |  |  |  |
-|--|--|--|--|
-| **Week 0** <span style="background-color:#44d774;color:#fff;padding:2px 12px;border-radius:4px;">Tools Setup</span> | **Week 1** <span style="background-color:#bbb;color:#fff;padding:2px 12px;border-radius:4px;">Coming Soon</span> | **Week 2** <span style="background-color:#ccc;color:#222;padding:2px 12px;border-radius:4px;">Upcoming</span> |
 
 ---
 
@@ -72,6 +58,11 @@ This is just the beginning. Follow along to learn how we progress from environme
 > This milestone means I'm officially set up to advance through the full SoC design and tapeout journey—starting strong, building my technical confidence, and adding another real skill to my VLSI toolkit.
 
 Proud to set this marker in my learning journey, determined to excel in every step. The RISC-V SoC Tapeout Program by VSD inspires real innovation, and it’s a privilege to contribute to this dynamic community shaping the future of open-source hardware in India and beyond.
+
+---
+## 📅 Stay Tuned!
+
+This is just the beginning. Follow along to learn how we progress from environment setup to RTL design, synthesis, physical layout, tapeout, and chip bring-up. Join the growing ecosystem of 3500+ innovators advancing the nation's semiconductor ambitions.
 
 ---
 
