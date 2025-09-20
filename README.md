@@ -38,13 +38,13 @@ git submodule update --init --recursive
 make
 sudo make install
 
-<img width="1087" height="541" alt="yosys" src="https://github.com/" />
+<img width="1087" height="541" alt="yosys" src="https://github.com/sathvikkumarpamu/sathvikkumarpamu_RISC-V_SoC_Design_Journey/images/yosys.png" />
 
 sudo apt-get update
 sudo apt-get install iverilog
-<img width="622" height="406" alt="iverilog" src="https://github.com/" />
+<img width="622" height="406" alt="iverilog" src="https://github.com/sathvikkumarpamu/sathvikkumarpamu_RISC-V_SoC_Design_Journey/images/iverilog.png" />
 
 sudo apt-get update
 sudo apt install gtkwave
-<img width="2048" height="512" alt="GTKwave" src="https://github.com/" />
+<img width="2048" height="512" alt="GTKwave" src="https://github.com/sathvikkumarpamu/sathvikkumarpamu_RISC-V_SoC_Design_Journey/images/GTKwave.png" />
 
