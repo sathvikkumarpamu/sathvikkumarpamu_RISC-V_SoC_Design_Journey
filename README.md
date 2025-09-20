@@ -28,23 +28,27 @@ Building silicon is a complex journey requiring precise tools and workflows. Wee
 ---
 
 ## 🔄 Week 0 Workflow
-+-----------------+        +----------------+        +------------------+
-| Ubuntu          |  --->  | Toolchain Setup |  --->  | Validation & Test |
-| Installation    |        | (Yosys, Icarus,|        | Runs (Simulation, |
-|                 |        | GTKWave)       |        | Synthesis)        |
-+-----------------+        +----------------+        +------------------+
 
+### Tools and Environment
+
+| ![Ubuntu](https://upload.wikimedia.org/wikipedia/commons/4/48/Ubuntu_logo.svg) | ![Yosys](https://raw.githubusercontent.com/YosysHQ/yosys/master/logo/yosys_logo.svg) | ![Icarus Verilog](https://raw.githubusercontent.com/Icarus-Verilog/iverilog/master/doc/logo.svg) | ![GTKWave](https://gitlab.com/gtkwave/gtkwave/-/raw/master/docs/gtkwave-logo.svg) |
+|---|---|---|---|
+| Ubuntu OS | Yosys Synthesis | Icarus Verilog Simulator | GTKWave Viewer |
+
+flowchart LR
+A[Ubuntu Installation
+(🖥️)] --> B[Toolchain Setup
+(Yosys, Icarus Verilog, GTKWave)]
+B --> C[Validation & Test Runs
+(Simulation, Synthesis)]
+style A fill:#f2f2f2,stroke:#333,stroke-width:2px
+style B fill:#cce5ff,stroke:#3182bd,stroke-width:2px
+style C fill:#d1e7dd,stroke:#14532d,stroke-width:2px
 ---
 
 ## 🙏 Acknowledgments
 
-Thanks to the collaborative visionaries fueling this initiative:  
-[Kunal Ghosh](https://github.com/kunalg123),  
-[VLSI System Design (VSD)](https://vsdiat.vlsisystemdesign.com/),  
-[RISC-V International](https://riscv.org/),  
-India Semiconductor Mission (ISM),  
-[VLSI Society of India (VSI)](https://vlsi.org.in/),  
-and [Efabless](https://efabless.com/).
+Thanks to the collaborative visionaries fueling this initiative:[Kunal Ghosh](https://github.com/kunalg123),mohammad Kaseem ,[RISC-V International](https://riscv.org/),Samir Patel.
 
 ---
 
@@ -73,11 +77,9 @@ Proud to set this marker in my learning journey, determined to excel in every st
 
 ## 🔗 Program Links
 
-[![VSD](https://img.shields.io/badge/VSD-000000?style=for-the-badge&logo=appveyor&logoColor=white)](https://www.vlsisystemdesign.com/soc-labs/) 
 [![Official Website](https://img.shields.io/badge/Official%20Website-0078D7?style=for-the-badge&logo=internet-explorer&logoColor=white)](https://vsdiat.vlsisystemdesign.com/) 
 [![RISC-V](https://img.shields.io/badge/RISC--V-000000?style=for-the-badge&logo=risc-v&logoColor=white)](https://riscv.org/) 
 [![Efabless](https://img.shields.io/badge/Efabless-0066CC?style=for-the-badge&logo=vercel&logoColor=white)](https://efabless.com/)
-[![Platform](https://img.shields.io/badge/Platform-FF6F00?style=for-the-badge&logo=google-play&logoColor=white)](https://vsdiat.vlsisystemdesign.com/)
 
 ---
 
