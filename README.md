@@ -28,6 +28,11 @@ Building silicon is a complex journey requiring precise tools and workflows. Wee
 ---
 
 ## 🔄 Week 0 Workflow
++-----------------+        +----------------+        +------------------+
+| Ubuntu          |  --->  | Toolchain Setup |  --->  | Validation & Test |
+| Installation    |        | (Yosys, Icarus,|        | Runs (Simulation, |
+|                 |        | GTKWave)       |        | Synthesis)        |
++-----------------+        +----------------+        +------------------+
 
 ---
 
