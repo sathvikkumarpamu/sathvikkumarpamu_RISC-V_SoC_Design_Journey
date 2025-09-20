@@ -52,3 +52,32 @@ and [Efabless](https://efabless.com/).
 
 This is just the beginning. Follow along to learn how we progress from environment setup to RTL design, synthesis, physical layout, tapeout, and chip bring-up. Join the growing ecosystem of 3500+ innovators advancing the nation's semiconductor ambitions.
 
+---
+# 📈 Weekly Progress Tracker
+
+|  |  |  |  |
+|--|--|--|--|
+| **Week 0** <span style="background-color:#44d774;color:#fff;padding:2px 12px;border-radius:4px;">Tools Setup</span> | **Week 1** <span style="background-color:#bbb;color:#fff;padding:2px 12px;border-radius:4px;">Coming Soon</span> | **Week 2** <span style="background-color:#ccc;color:#222;padding:2px 12px;border-radius:4px;">Upcoming</span> |
+
+---
+
+## 🎯 Task 0 Achieved!
+
+> **Goal:** Environment fully configured; Yosys, Icarus Verilog, and GTKWave working seamlessly!  
+>  
+> This milestone means I'm officially set up to advance through the full SoC design and tapeout journey—starting strong, building my technical confidence, and adding another real skill to my VLSI toolkit.
+
+Proud to set this marker in my learning journey, determined to excel in every step. The RISC-V SoC Tapeout Program by VSD inspires real innovation, and it’s a privilege to contribute to this dynamic community shaping the future of open-source hardware in India and beyond.
+
+---
+
+## 🔗 Program Links
+
+[![VSD](https://img.shields.io/badge/VSD-000000?style=for-the-badge&logo=appveyor&logoColor=white)](https://www.vlsisystemdesign.com/soc-labs/) 
+[![Official Website](https://img.shields.io/badge/Official%20Website-0078D7?style=for-the-badge&logo=internet-explorer&logoColor=white)](https://vsdiat.vlsisystemdesign.com/) 
+[![RISC-V](https://img.shields.io/badge/RISC--V-000000?style=for-the-badge&logo=risc-v&logoColor=white)](https://riscv.org/) 
+[![Efabless](https://img.shields.io/badge/Efabless-0066CC?style=for-the-badge&logo=vercel&logoColor=white)](https://efabless.com/)
+[![Platform](https://img.shields.io/badge/Platform-FF6F00?style=for-the-badge&logo=google-play&logoColor=white)](https://vsdiat.vlsisystemdesign.com/)
+
+---
+
