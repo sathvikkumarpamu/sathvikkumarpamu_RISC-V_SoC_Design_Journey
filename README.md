@@ -10,10 +10,6 @@ Welcome to the launch pad of your SoC journey! In Week 0, we set the foundation 
 - **Prepared an environment** tailored for RTL-to-GDSII flows on Ubuntu 20.04+ (native or VM)
 - **Built confidence** for moving forward into SoC integration and silicon tapeout
 
-## 🌟 Why This Matters:
-Building silicon is a complex journey requiring precise tools and workflows. Week 0 empowers you by setting up proven open-source software ecosystems essential to design, simulate, and synthesize your RISC-V SoC efficiently. These tools are cornerstones of industry-grade chip design, enabling innovation at a free of cost.
-
----
 
 ## 🛠️ Tools & Setup Summary
 
@@ -37,17 +33,6 @@ Building silicon is a complex journey requiring precise tools and workflows. Wee
 - **Developed hands-on skills for environment setup:**  
   Navigated the Linux (Ubuntu 20.04) OS preparation—whether native or in VM—to ensure a stable platform for extensive RTL design, synthesis, and verification workflows.
 
-
-Feel free to reach out or contribute as the adventure unfolds!
-
-By completing this foundational week, I am deeply proud to contribute to the pioneering RISC-V SoC Tapeout Program by VSD—a milestone propelling the open-source silicon ecosystem forward with innovation and collaboration.
----
-## 🙏 Acknowledgments
-
-Thanks to the collaborative visionaries fueling this initiative:[Kunal Ghosh](https://github.com/kunalg123),Mohammad Kaseem,Samir Patel.
-
----
-
 ## 🎯 Task 0 Achieved!
 
 > **Goal:** Environment fully configured; Yosys, Icarus Verilog, and GTKWave working seamlessly!  
@@ -57,6 +42,23 @@ Thanks to the collaborative visionaries fueling this initiative:[Kunal Ghosh](ht
 Proud to set this marker in my learning journey, determined to excel in every step. The RISC-V SoC Tapeout Program by VSD inspires real innovation, and it’s a privilege to contribute to this dynamic community shaping the future of open-source hardware in India and beyond.
 
 ---
+
+Feel free to reach out or contribute as the adventure unfolds!
+
+By completing this foundational week, I am deeply proud to contribute to the pioneering RISC-V SoC Tapeout Program by VSD—a milestone propelling the open-source silicon ecosystem forward with innovation and collaboration.
+---
+
+## 🌟 Why This Matters:
+Building silicon is a complex journey requiring precise tools and workflows. Week 0 empowers you by setting up proven open-source software ecosystems essential to design, simulate, and synthesize your RISC-V SoC efficiently. These tools are cornerstones of industry-grade chip design, enabling innovation at a free of cost.
+
+---
+## 🙏 Acknowledgments
+
+Thanks to the collaborative visionaries fueling this initiative:[Kunal Ghosh](https://github.com/kunalg123),Mohammad Kaseem,Samir Patel.
+
+---
+
+
 ## 📅 Stay Tuned!
 
 This is just the beginning. Follow along to learn how we progress from environment setup to RTL design, synthesis, physical layout, tapeout, and chip bring-up. Join the growing ecosystem of 3500+ innovators advancing the nation's semiconductor ambitions.
